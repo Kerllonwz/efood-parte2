@@ -8,15 +8,19 @@ export const FooterBar = styled.footer`
   margin-top: 80px;
 `
 
-export const LogoWrapper = styled.div`
-  display: inline-block;
+export const Logo = styled.div`
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  border: 2px solid ${colors.primary};
+  color: ${colors.primary};
+  font-size: 18px;
+  font-weight: 700;
+  width: 125px;
+  height: 57.5px;
+  letter-spacing: -0.5px;
   margin-bottom: 24px;
-
-  img {
-    display: block;
-    height: 40px;
-    width: auto;
-  }
 `
 
 export const SocialLinks = styled.div`
