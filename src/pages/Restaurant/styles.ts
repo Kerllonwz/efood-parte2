@@ -22,7 +22,7 @@ export const BannerContent = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
-  padding: 0 calc((100% - 1024px) / 2 + 16px) 32px;
+  padding: 0 calc((100% - 660px) / 2) 32px;
   gap: 112px;
 `
 
