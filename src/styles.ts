@@ -1,8 +1,8 @@
 import { createGlobalStyle } from 'styled-components'
 
 export const colors = {
-  primary: '#E55A4E',
-  primaryDark: '#C9483E',
+  primary: '#E66767',
+  primaryDark: '#D85A5A',
   background: '#FFF8F2',
   white: '#FFFFFF',
   cream: '#FFEBD9',
@@ -11,7 +11,7 @@ export const colors = {
 }
 
 export const utensilsPattern =
-  "url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='48' height='48' viewBox='0 0 48 48'%3E%3Cg transform='translate(12 10)' fill='%23E55A4E' fill-opacity='0.12'%3E%3Cpath d='M5 0h2v9h2V0h2v9h2V0h2v10.5c0 2.78-2.03 5.08-4.69 5.5V28H8.69V16C6.03 15.58 4 13.28 4 10.5V0h1zm17 0c3.31 0 6 2.69 6 6v11h-3.5v11H21V0h1z'/%3E%3C/g%3E%3C/svg%3E\")"
+  "url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='40' height='40' viewBox='0 0 40 40'%3E%3Cg transform='translate(10 8)' fill='%23E66767' fill-opacity='0.08'%3E%3Cpath d='M4 0h1.6v8h1.6V0h1.6v8h1.6V0H12v9.4c0 2.1-1.42 3.86-3.4 4.4V24H7.4V13.8C5.42 13.26 4 11.5 4 9.4V0zm15 0c2.76 0 5 2.24 5 5v10h-3v9h-2V0z'/%3E%3C/g%3E%3C/svg%3E\")"
 
 export const GlobalStyle = createGlobalStyle`
   * {
@@ -30,7 +30,7 @@ export const GlobalStyle = createGlobalStyle`
   }
 
   .container {
-    max-width: 1366px;
+    max-width: 1024px;
     width: 100%;
     margin: 0 auto;
     padding: 0 16px;

@@ -5,13 +5,16 @@ export const HeroHeader = styled.header`
   background-color: ${colors.background};
   background-image: ${utensilsPattern};
   background-repeat: repeat;
-  background-size: 48px 48px;
-  padding: 56px 0 80px;
+  background-size: 40px 40px;
+  padding: 36px 0 34px;
   text-align: center;
 `
 
 export const SimpleHeader = styled.header`
-  background-color: ${colors.primary};
+  background-color: ${colors.background};
+  background-image: ${utensilsPattern};
+  background-repeat: repeat;
+  background-size: 40px 40px;
 `
 
 export const Logo = styled.div<{ $inverse?: boolean }>`
@@ -20,18 +23,18 @@ export const Logo = styled.div<{ $inverse?: boolean }>`
   justify-content: center;
   gap: 8px;
   background-color: transparent;
-  border: 1px solid ${({ $inverse }) => ($inverse ? colors.white : colors.primary)};
+  border: 3px solid currentColor;
   border-radius: 0;
-  color: ${({ $inverse }) => ($inverse ? colors.white : colors.primary)};
-  font-size: 30px;
+  color: ${colors.primary};
+  font-size: 24px;
   font-weight: 900;
   line-height: 1;
-  padding: 8px 12px;
+  padding: 6px 8px;
 
   &::after {
     content: '';
-    width: 30px;
-    height: 30px;
+    width: 20px;
+    height: 20px;
     background-color: currentColor;
     display: block;
     mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Cpath d='M6 2h2v9h2V2h2v9h2V2h2v10.5c0 2.5-1.68 4.6-4 5.25V30H10V17.75c-2.32-.65-4-2.75-4-5.25V2zm17 0c3.31 0 6 2.69 6 6v11h-4v11h-3V2h1z'/%3E%3C/svg%3E");
@@ -47,11 +50,11 @@ export const Logo = styled.div<{ $inverse?: boolean }>`
 
 export const Tagline = styled.p`
   color: ${colors.primary};
-  font-size: 38px;
-  font-weight: 700;
-  letter-spacing: 0.4px;
-  line-height: 1.45;
-  margin: 80px auto 0;
+  font-size: 24px;
+  font-weight: 900;
+  letter-spacing: 0;
+  line-height: 1.15;
+  margin: 102px auto 0;
   text-align: center;
 `
 
@@ -59,11 +62,12 @@ export const Nav = styled.nav`
   display: grid;
   grid-template-columns: 1fr auto 1fr;
   align-items: center;
-  padding: 24px 0;
+  height: 168px;
+  padding: 0;
 
   a,
   > span {
-    color: ${colors.white};
+    color: ${colors.primary};
     font-size: 18px;
     font-weight: 900;
     text-decoration: none;

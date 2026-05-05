@@ -2,10 +2,10 @@ import styled from 'styled-components'
 import { colors } from '../../styles'
 
 export const Card = styled.div`
-  background-color: ${colors.white};
+  background-color: ${colors.primary};
   border: 1px solid ${colors.primary};
   padding: 8px;
-  color: ${colors.primary};
+  color: ${colors.cream};
   display: flex;
   flex-direction: column;
   height: 100%;
@@ -30,7 +30,7 @@ export const Title = styled.h4`
 `
 
 export const Description = styled.p`
-  color: ${colors.darkText};
+  color: ${colors.cream};
   font-size: 14px;
   line-height: 1.6;
 `
@@ -48,12 +48,12 @@ export const Price = styled.span`
 `
 
 export const Button = styled.button`
-  background-color: ${colors.white};
+  background-color: ${colors.cream};
   color: ${colors.primary};
   font-size: 14px;
   font-weight: 700;
   padding: 8px 0;
-  border: 1px solid ${colors.primary};
+  border: 1px solid ${colors.cream};
   border-radius: 0;
   cursor: pointer;
   width: 100%;
