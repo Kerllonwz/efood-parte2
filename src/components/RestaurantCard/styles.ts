@@ -12,7 +12,7 @@ export const Card = styled.div`
 
 export const ImageContainer = styled.div`
   width: 100%;
-  height: 217px;
+  height: 160px;
   overflow: hidden;
   position: relative;
 
@@ -36,7 +36,7 @@ export const Tag = styled.span`
   color: ${colors.white};
   font-size: 12px;
   font-weight: 700;
-  padding: 6px 10px;
+  padding: 4px 6px;
   letter-spacing: 0;
 `
 
@@ -51,12 +51,12 @@ export const TitleRow = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 16px;
-  padding-top: 8px;
+  margin-bottom: 8px;
+  padding-top: 4px;
 `
 
 export const Title = styled.h3`
-  font-size: 18px;
+  font-size: 14px;
   font-weight: 900;
   color: ${colors.primary};
 `
@@ -64,30 +64,34 @@ export const Title = styled.h3`
 export const Rating = styled.div`
   display: flex;
   align-items: center;
-  gap: 8px;
-  font-size: 18px;
+  gap: 6px;
+  font-size: 14px;
   font-weight: 700;
   color: ${colors.primary};
 
   span {
-    font-size: 21px;
+    font-size: 15px;
   }
 `
 
 export const Description = styled.p`
-  font-size: 14px;
-  line-height: 1.75;
+  display: -webkit-box;
+  font-size: 11px;
+  line-height: 1.55;
   color: ${colors.primary};
-  margin-bottom: 16px;
+  margin-bottom: 10px;
+  overflow: hidden;
   flex: 1;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 4;
 `
 
 export const Button = styled.button`
   background-color: ${colors.primary};
   color: ${colors.white};
-  font-size: 14px;
+  font-size: 10px;
   font-weight: 700;
-  padding: 8px 12px;
+  padding: 5px 8px;
   border: none;
   cursor: pointer;
   align-self: flex-start;

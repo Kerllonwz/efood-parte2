@@ -9,11 +9,11 @@ export const mockRestaurants: Restaurant[] = [
     avaliacao: 4.7,
     descricao:
       'A paixão dos nossos talentosos chefs pela cozinha italiana é evidente em cada prato, desde massas caseiras e risotos cremosos até suculentos frutos do mar e carnes tenras. Nosso menu é complementado por uma excelente carta de vinhos.',
-    capa: 'https://api-ebac.vercel.app/efood/bella_tavola_italiana//capa.jpeg',
+    capa: 'https://api-ebac.vercel.app/efood/bella_tavola_italiana/capa.jpeg',
     cardapio: [
       {
         id: 1,
-        foto: 'https://api-ebac.vercel.app/efood/bella_tavola_italiana//1.webp',
+        foto: 'https://api-ebac.vercel.app/efood/bella_tavola_italiana/1.webp',
         preco: 69.9,
         nome: 'Ravioli al Tartufo Nero',
         descricao:
@@ -22,7 +22,7 @@ export const mockRestaurants: Restaurant[] = [
       },
       {
         id: 2,
-        foto: 'https://api-ebac.vercel.app/efood/bella_tavola_italiana//2.jpg',
+        foto: 'https://api-ebac.vercel.app/efood/bella_tavola_italiana/2.jpg',
         preco: 56.9,
         nome: 'Spaghetti alla Carbonara',
         descricao:
@@ -31,7 +31,7 @@ export const mockRestaurants: Restaurant[] = [
       },
       {
         id: 3,
-        foto: 'https://api-ebac.vercel.app/efood/bella_tavola_italiana//3.jpg',
+        foto: 'https://api-ebac.vercel.app/efood/bella_tavola_italiana/3.jpg',
         preco: 74.9,
         nome: 'Risotto ai Funghi Porcini',
         descricao:
@@ -48,11 +48,11 @@ export const mockRestaurants: Restaurant[] = [
     avaliacao: 4.8,
     descricao:
       'A Casa das Delícias Árabes é um acolhedor e autêntico restaurante árabe que proporciona uma verdadeira experiência culinária do Oriente Médio.',
-    capa: 'https://api-ebac.vercel.app/efood/casa_delicias_arabes//capa.jpeg',
+    capa: 'https://api-ebac.vercel.app/efood/casa_delicias_arabes/capa.jpeg',
     cardapio: [
       {
         id: 8,
-        foto: 'https://api-ebac.vercel.app/efood/casa_delicias_arabes//1.jpg',
+        foto: 'https://api-ebac.vercel.app/efood/casa_delicias_arabes/1.jpg',
         preco: 49.9,
         nome: 'Mezze Platter',
         descricao:
@@ -61,7 +61,7 @@ export const mockRestaurants: Restaurant[] = [
       },
       {
         id: 9,
-        foto: 'https://api-ebac.vercel.app/efood/casa_delicias_arabes//2.jpg',
+        foto: 'https://api-ebac.vercel.app/efood/casa_delicias_arabes/2.jpg',
         preco: 54.9,
         nome: 'Kebab de Cordeiro',
         descricao:
@@ -70,7 +70,7 @@ export const mockRestaurants: Restaurant[] = [
       },
       {
         id: 10,
-        foto: 'https://api-ebac.vercel.app/efood/casa_delicias_arabes//3.webp',
+        foto: 'https://api-ebac.vercel.app/efood/casa_delicias_arabes/3.webp',
         preco: 45.9,
         nome: 'Shawarma de Frango',
         descricao:
@@ -87,11 +87,11 @@ export const mockRestaurants: Restaurant[] = [
     avaliacao: 4.9,
     descricao:
       'A Sakura Sushi House é um sofisticado e autêntico restaurante japonês que oferece uma experiência culinária imersiva.',
-    capa: 'https://api-ebac.vercel.app/efood/sakura_sushi_house//capa.jpeg',
+    capa: 'https://api-ebac.vercel.app/efood/sakura_sushi_house/capa.jpeg',
     cardapio: [
       {
         id: 11,
-        foto: 'https://api-ebac.vercel.app/efood/sakura_sushi_house//1.jpg',
+        foto: 'https://api-ebac.vercel.app/efood/sakura_sushi_house/1.jpg',
         preco: 89.9,
         nome: 'Sushi e Sashimi Combinado',
         descricao:
@@ -100,7 +100,7 @@ export const mockRestaurants: Restaurant[] = [
       },
       {
         id: 12,
-        foto: 'https://api-ebac.vercel.app/efood/sakura_sushi_house//2.jpg',
+        foto: 'https://api-ebac.vercel.app/efood/sakura_sushi_house/2.jpg',
         preco: 79.9,
         nome: 'Tempura de Legumes e Camarão',
         descricao:
@@ -109,7 +109,7 @@ export const mockRestaurants: Restaurant[] = [
       },
       {
         id: 13,
-        foto: 'https://api-ebac.vercel.app/efood/sakura_sushi_house//3.jpg',
+        foto: 'https://api-ebac.vercel.app/efood/sakura_sushi_house/3.jpg',
         preco: 69.9,
         nome: 'Teishoku de Tonkatsu',
         descricao:
@@ -126,11 +126,11 @@ export const mockRestaurants: Restaurant[] = [
     avaliacao: 4.8,
     descricao:
       'O Cantinho Lusitano é um charmoso e tradicional restaurante português que celebra a rica herança culinária de Portugal.',
-    capa: 'https://api-ebac.vercel.app/efood/cantinho_lusitano//capa.jpeg',
+    capa: 'https://api-ebac.vercel.app/efood/cantinho_lusitano/capa.jpeg',
     cardapio: [
       {
         id: 14,
-        foto: 'https://api-ebac.vercel.app/efood/cantinho_lusitano//1.jpeg',
+        foto: 'https://api-ebac.vercel.app/efood/cantinho_lusitano/1.jpeg',
         preco: 74.9,
         nome: 'Bacalhau à Gomes de Sá',
         descricao:
@@ -139,7 +139,7 @@ export const mockRestaurants: Restaurant[] = [
       },
       {
         id: 15,
-        foto: 'https://api-ebac.vercel.app/efood/cantinho_lusitano//2.jpg',
+        foto: 'https://api-ebac.vercel.app/efood/cantinho_lusitano/2.jpg',
         preco: 64.9,
         nome: 'Arroz de Pato',
         descricao:
@@ -156,11 +156,11 @@ export const mockRestaurants: Restaurant[] = [
     avaliacao: 4.7,
     descricao:
       'A Piazza del Forno é uma pizzaria acolhedora com pizzas artesanais preparadas com ingredientes frescos e assadas em forno a lenha.',
-    capa: 'https://api-ebac.vercel.app/efood/piazza//capa.png',
+    capa: 'https://api-ebac.vercel.app/efood/piazza/capa.png',
     cardapio: [
       {
         id: 17,
-        foto: 'https://api-ebac.vercel.app/efood/piazza//1.jpg',
+        foto: 'https://api-ebac.vercel.app/efood/piazza/1.jpg',
         preco: 49.9,
         nome: 'Pizza Margherita',
         descricao:
@@ -169,7 +169,7 @@ export const mockRestaurants: Restaurant[] = [
       },
       {
         id: 18,
-        foto: 'https://api-ebac.vercel.app/efood/piazza//2.webp',
+        foto: 'https://api-ebac.vercel.app/efood/piazza/2.webp',
         preco: 59.9,
         nome: 'Pizza Quatro Queijos',
         descricao:
@@ -178,7 +178,7 @@ export const mockRestaurants: Restaurant[] = [
       },
       {
         id: 19,
-        foto: 'https://api-ebac.vercel.app/efood/piazza//3.jpg',
+        foto: 'https://api-ebac.vercel.app/efood/piazza/3.jpg',
         preco: 64.9,
         nome: 'Pizza Calabresa',
         descricao:
@@ -195,11 +195,11 @@ export const mockRestaurants: Restaurant[] = [
     avaliacao: 4.8,
     descricao:
       'O Jardim da Terra é um restaurante vegano que oferece pratos deliciosos e criativos com ingredientes frescos, orgânicos e sazonais.',
-    capa: 'https://api-ebac.vercel.app/efood/jardim_terra//capa.png',
+    capa: 'https://api-ebac.vercel.app/efood/jardim_terra/capa.png',
     cardapio: [
       {
         id: 20,
-        foto: 'https://api-ebac.vercel.app/efood/jardim_terra//1.webp',
+        foto: 'https://api-ebac.vercel.app/efood/jardim_terra/1.webp',
         preco: 38.9,
         nome: 'Hambúrguer de Grão-de-Bico',
         descricao:
@@ -208,7 +208,7 @@ export const mockRestaurants: Restaurant[] = [
       },
       {
         id: 21,
-        foto: 'https://api-ebac.vercel.app/efood/jardim_terra//2.jpeg',
+        foto: 'https://api-ebac.vercel.app/efood/jardim_terra/2.jpeg',
         preco: 42.9,
         nome: 'Lasanha de Berinjela',
         descricao:
@@ -217,7 +217,7 @@ export const mockRestaurants: Restaurant[] = [
       },
       {
         id: 22,
-        foto: 'https://api-ebac.vercel.app/efood/jardim_terra//3.jpg',
+        foto: 'https://api-ebac.vercel.app/efood/jardim_terra/3.jpg',
         preco: 35.9,
         nome: 'Bowl de Cogumelos e Quinoa',
         descricao:

@@ -13,7 +13,7 @@ export const Card = styled.div`
 
 export const Image = styled.img`
   width: 100%;
-  height: 167px;
+  height: 120px;
   object-fit: cover;
   display: block;
 `
@@ -24,15 +24,19 @@ export const Info = styled.div`
 `
 
 export const Title = styled.h4`
-  font-size: 18px;
+  font-size: 12px;
   font-weight: 900;
   margin: 8px 0;
 `
 
 export const Description = styled.p`
   color: ${colors.cream};
-  font-size: 14px;
-  line-height: 1.6;
+  display: -webkit-box;
+  font-size: 10px;
+  line-height: 1.35;
+  overflow: hidden;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 4;
 `
 
 export const Footer = styled.div`
@@ -43,16 +47,16 @@ export const Footer = styled.div`
 `
 
 export const Price = styled.span`
-  font-size: 14px;
+  font-size: 10px;
   font-weight: 700;
 `
 
 export const Button = styled.button`
   background-color: ${colors.cream};
   color: ${colors.primary};
-  font-size: 14px;
+  font-size: 10px;
   font-weight: 700;
-  padding: 8px 0;
+  padding: 4px 0;
   border: 1px solid ${colors.cream};
   border-radius: 0;
   cursor: pointer;
