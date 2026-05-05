@@ -3,7 +3,8 @@ import { colors } from '../../styles'
 
 export const Card = styled.div`
   background-color: ${colors.white};
-  border: 1px solid ${colors.primary};
+  border: none;
+  box-shadow: 0 8px 24px rgba(76, 46, 36, 0.08);
   position: relative;
   display: flex;
   flex-direction: column;
@@ -12,7 +13,7 @@ export const Card = styled.div`
 
 export const ImageContainer = styled.div`
   width: 100%;
-  height: 217px;
+  height: 200px;
   overflow: hidden;
   position: relative;
 
@@ -25,10 +26,12 @@ export const ImageContainer = styled.div`
 
 export const Tags = styled.div`
   position: absolute;
-  top: 16px;
-  right: 16px;
+  top: 12px;
+  right: 12px;
   display: flex;
   gap: 8px;
+  flex-wrap: wrap;
+  justify-content: flex-end;
 `
 
 export const Tag = styled.span`
@@ -36,13 +39,12 @@ export const Tag = styled.span`
   color: ${colors.white};
   font-size: 12px;
   font-weight: 700;
-  padding: 6px 10px;
-  letter-spacing: 0.5px;
-  text-transform: uppercase;
+  padding: 5px 8px;
+  letter-spacing: 0;
 `
 
 export const Content = styled.div`
-  padding: 8px;
+  padding: 16px;
   flex: 1;
   display: flex;
   flex-direction: column;
@@ -58,7 +60,7 @@ export const TitleRow = styled.div`
 
 export const Title = styled.h3`
   font-size: 18px;
-  font-weight: 900;
+  font-weight: 700;
   color: ${colors.primary};
 `
 
@@ -77,8 +79,8 @@ export const Rating = styled.div`
 
 export const Description = styled.p`
   font-size: 14px;
-  line-height: 1.75;
-  color: ${colors.primary};
+  line-height: 1.6;
+  color: ${colors.darkText};
   margin-bottom: 16px;
   flex: 1;
 `
@@ -88,7 +90,7 @@ export const Button = styled.button`
   color: ${colors.white};
   font-size: 14px;
   font-weight: 700;
-  padding: 8px 12px;
+  padding: 8px 16px;
   border: none;
   cursor: pointer;
   align-self: flex-start;

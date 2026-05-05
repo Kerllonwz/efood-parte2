@@ -1,9 +1,12 @@
 import styled from 'styled-components'
-import { colors } from '../../styles'
+import { colors, utensilsPattern } from '../../styles'
 
 export const HeroHeader = styled.header`
   background-color: ${colors.background};
-  padding: 80px 0;
+  background-image: ${utensilsPattern};
+  background-repeat: repeat;
+  background-size: 48px 48px;
+  padding: 56px 0 80px;
   text-align: center;
 `
 
@@ -16,27 +19,38 @@ export const Logo = styled.div<{ $inverse?: boolean }>`
   align-items: center;
   justify-content: center;
   gap: 8px;
-  background-color: ${({ $inverse }) => ($inverse ? 'transparent' : colors.white)};
-  border: 2px solid ${({ $inverse }) => ($inverse ? colors.white : colors.primary)};
+  background-color: transparent;
+  border: 1px solid ${({ $inverse }) => ($inverse ? colors.white : colors.primary)};
   border-radius: 0;
   color: ${({ $inverse }) => ($inverse ? colors.white : colors.primary)};
-  font-size: 32px;
+  font-size: 30px;
   font-weight: 900;
   line-height: 1;
-  padding: 8px 16px;
+  padding: 8px 12px;
+
+  &::after {
+    content: '';
+    width: 30px;
+    height: 30px;
+    background-color: currentColor;
+    display: block;
+    mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Cpath d='M6 2h2v9h2V2h2v9h2V2h2v10.5c0 2.5-1.68 4.6-4 5.25V30H10V17.75c-2.32-.65-4-2.75-4-5.25V2zm17 0c3.31 0 6 2.69 6 6v11h-4v11h-3V2h1z'/%3E%3C/svg%3E");
+    mask-repeat: no-repeat;
+    mask-position: center;
+    mask-size: contain;
+  }
 
   svg {
-    width: 32px;
-    height: 32px;
+    display: none;
   }
 `
 
 export const Tagline = styled.p`
   color: ${colors.primary};
-  font-size: 36px;
-  font-weight: 900;
-  letter-spacing: 0;
-  line-height: 100%;
+  font-size: 38px;
+  font-weight: 700;
+  letter-spacing: 0.4px;
+  line-height: 1.45;
   margin: 80px auto 0;
   text-align: center;
 `

@@ -1,8 +1,8 @@
 import { createGlobalStyle } from 'styled-components'
 
 export const colors = {
-  primary: '#E66767',
-  primaryDark: '#C44545',
+  primary: '#E55A4E',
+  primaryDark: '#C9483E',
   background: '#FFF8F2',
   white: '#FFFFFF',
   cream: '#FFEBD9',
@@ -10,8 +10,8 @@ export const colors = {
   cartDark: '#2F2F2F',
 }
 
-const utensilsPattern =
-  "url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='40' height='40' viewBox='0 0 40 40'%3E%3Cg transform='translate(8 8)' fill='%23E66767' fill-opacity='0.15'%3E%3Cpath d='M11 9H9V2H7v7H5V2H3v7c0 2.12 1.66 3.84 3.75 3.97V22h2.5v-9.03C11.34 12.84 13 11.12 13 9V2h-2v7zm5-3v8h2.5v8H21V2c-2.76 0-5 2.24-5 4z'/%3E%3C/g%3E%3C/svg%3E\")"
+export const utensilsPattern =
+  "url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='48' height='48' viewBox='0 0 48 48'%3E%3Cg transform='translate(12 10)' fill='%23E55A4E' fill-opacity='0.12'%3E%3Cpath d='M5 0h2v9h2V0h2v9h2V0h2v10.5c0 2.78-2.03 5.08-4.69 5.5V28H8.69V16C6.03 15.58 4 13.28 4 10.5V0h1zm17 0c3.31 0 6 2.69 6 6v11h-3.5v11H21V0h1z'/%3E%3C/g%3E%3C/svg%3E\")"
 
 export const GlobalStyle = createGlobalStyle`
   * {
@@ -23,9 +23,6 @@ export const GlobalStyle = createGlobalStyle`
 
   body {
     background-color: ${colors.background};
-    background-image: ${utensilsPattern};
-    background-repeat: repeat;
-    background-size: 40px 40px;
     color: ${colors.darkText};
     line-height: 1.6;
     -webkit-font-smoothing: antialiased;
@@ -33,7 +30,7 @@ export const GlobalStyle = createGlobalStyle`
   }
 
   .container {
-    max-width: 1024px;
+    max-width: 1366px;
     width: 100%;
     margin: 0 auto;
     padding: 0 16px;
