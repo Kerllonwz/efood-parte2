@@ -13,72 +13,69 @@ export const Overlay = styled.div`
 `
 
 export const Modal = styled.div`
-  background-color: ${colors.primary};
-  max-width: 960px;
+  background-color: ${colors.white};
+  color: ${colors.primary};
+  max-width: 640px;
   width: 100%;
-  display: flex;
+  padding: 24px;
   position: relative;
-  color: ${colors.white};
-  padding: 32px;
-  gap: 24px;
 `
 
 export const CloseButton = styled.button`
   position: absolute;
-  top: -36px;
-  right: 0;
+  top: 8px;
+  right: 12px;
   background: none;
   border: none;
-  color: ${colors.white};
-  font-size: 32px;
+  color: ${colors.primary};
+  font-size: 24px;
+  font-weight: 900;
   cursor: pointer;
-  line-height: 1;
-  padding: 0;
 `
 
 export const ProductImage = styled.img`
-  width: 280px;
+  width: 100%;
   height: 280px;
   object-fit: cover;
-  flex-shrink: 0;
+  display: block;
+  margin-bottom: 16px;
 `
 
 export const ProductInfo = styled.div`
   display: flex;
   flex-direction: column;
-  flex: 1;
 `
 
 export const ProductTitle = styled.h3`
   font-size: 18px;
   font-weight: 900;
-  margin-bottom: 16px;
+  margin-bottom: 12px;
 `
 
 export const ProductDescription = styled.p`
+  color: ${colors.darkText};
   font-size: 14px;
-  line-height: 1.75;
-  flex: 1;
-  margin-bottom: 16px;
+  line-height: 1.6;
+  margin-bottom: 12px;
 `
 
 export const ProductPortion = styled.p`
   font-size: 14px;
-  margin-bottom: 24px;
+  margin-bottom: 8px;
+`
+
+export const Price = styled.strong`
+  font-size: 16px;
+  margin-bottom: 16px;
 `
 
 export const AddButton = styled.button`
-  background-color: ${colors.cream};
-  color: ${colors.primary};
+  background-color: ${colors.primary};
+  border: none;
+  color: ${colors.white};
+  cursor: pointer;
   font-size: 14px;
   font-weight: 700;
-  padding: 12px 24px;
-  border: none;
-  cursor: pointer;
+  padding: 12px;
   width: 100%;
-  transition: background-color 0.2s ease;
-
-  &:hover {
-    background-color: ${colors.white};
-  }
 `

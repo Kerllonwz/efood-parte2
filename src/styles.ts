@@ -7,9 +7,11 @@ export const colors = {
   white: '#FFFFFF',
   cream: '#FFEBD9',
   darkText: '#4B4B4B',
-  lightText: '#FFEBD9',
-  shadow: 'rgba(230, 103, 103, 0.15)',
+  cartDark: '#2F2F2F',
 }
+
+const utensilsPattern =
+  "url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='40' height='40' viewBox='0 0 40 40'%3E%3Cg transform='translate(8 8)' fill='%23E66767' fill-opacity='0.15'%3E%3Cpath d='M11 9H9V2H7v7H5V2H3v7c0 2.12 1.66 3.84 3.75 3.97V22h2.5v-9.03C11.34 12.84 13 11.12 13 9V2h-2v7zm5-3v8h2.5v8H21V2c-2.76 0-5 2.24-5 4z'/%3E%3C/g%3E%3C/svg%3E\")"
 
 export const GlobalStyle = createGlobalStyle`
   * {
@@ -21,9 +23,9 @@ export const GlobalStyle = createGlobalStyle`
 
   body {
     background-color: ${colors.background};
-    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' width='48' height='48' fill='%23F5C8B8'%3E%3Cpath d='M11 9H9V2H7v7H5V2H3v7c0 2.12 1.66 3.84 3.75 3.97V22h2.5v-9.03C11.34 12.84 13 11.12 13 9V2h-2v7zm5-3v8h2.5v8H21V2c-2.76 0-5 2.24-5 4z'/%3E%3C/svg%3E");
+    background-image: ${utensilsPattern};
     background-repeat: repeat;
-    background-size: 48px 48px;
+    background-size: 40px 40px;
     color: ${colors.darkText};
     line-height: 1.6;
     -webkit-font-smoothing: antialiased;

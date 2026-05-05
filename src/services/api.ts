@@ -9,6 +9,7 @@ export const fetchRestaurants = async (): Promise<Restaurant[]> => {
 }
 
 export const fetchRestaurantById = async (id: number): Promise<Restaurant | undefined> => {
-  const restaurants = await fetchRestaurants()
-  return restaurants.find((r) => r.id === id)
+  const response = await fetch(`${BASE_URL}/restaurantes/${id}`)
+  if (!response.ok) throw new Error('Erro ao buscar restaurante')
+  return response.json()
 }

@@ -2,9 +2,10 @@ import styled from 'styled-components'
 import { colors } from '../../styles'
 
 export const Card = styled.div`
-  background-color: ${colors.primary};
+  background-color: ${colors.white};
+  border: 1px solid ${colors.primary};
   padding: 8px;
-  color: ${colors.white};
+  color: ${colors.primary};
   display: flex;
   flex-direction: column;
   height: 100%;
@@ -29,8 +30,9 @@ export const Title = styled.h4`
 `
 
 export const Description = styled.p`
+  color: ${colors.darkText};
   font-size: 14px;
-  line-height: 1.75;
+  line-height: 1.6;
 `
 
 export const Footer = styled.div`
@@ -46,17 +48,13 @@ export const Price = styled.span`
 `
 
 export const Button = styled.button`
-  background-color: ${colors.cream};
+  background-color: ${colors.white};
   color: ${colors.primary};
   font-size: 14px;
   font-weight: 700;
   padding: 8px 0;
-  border: none;
+  border: 1px solid ${colors.primary};
+  border-radius: 0;
   cursor: pointer;
   width: 100%;
-  transition: background-color 0.2s ease;
-
-  &:hover {
-    background-color: ${colors.white};
-  }
 `
