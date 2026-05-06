@@ -34,7 +34,7 @@ const Header = ({ variant = 'hero' }: HeaderProps) => {
             <span>efood</span>
             <GiKnifeFork aria-hidden="true" />
           </S.Logo>
-          <span>0 produtos no carrinho</span>
+          <span>0 produto(s) no carrinho</span>
         </S.Nav>
       </div>
     </S.SimpleHeader>

@@ -26,9 +26,11 @@ export const ImageContainer = styled.div`
 export const Tags = styled.div`
   position: absolute;
   top: 16px;
+  left: 16px;
   right: 16px;
   display: flex;
-  gap: 8px;
+  justify-content: space-between;
+  align-items: flex-start;
 `
 
 export const Tag = styled.span`
