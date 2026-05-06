@@ -13,6 +13,7 @@ export const Logo = styled.div`
   align-items: center;
   justify-content: center;
   gap: 8px;
+  background-color: ${colors.white};
   color: ${colors.primary};
   border: 3px solid currentColor;
   font-size: 24px;

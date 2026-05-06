@@ -2,7 +2,7 @@ import styled from 'styled-components'
 import { colors, utensilsPattern } from '../../styles'
 
 export const HeroHeader = styled.header`
-  background-color: ${colors.background};
+  background-color: ${colors.cream};
   background-image: ${utensilsPattern};
   background-repeat: repeat;
   background-size: 40px 40px;
@@ -11,7 +11,7 @@ export const HeroHeader = styled.header`
 `
 
 export const SimpleHeader = styled.header`
-  background-color: ${colors.background};
+  background-color: ${colors.cream};
   background-image: ${utensilsPattern};
   background-repeat: repeat;
   background-size: 40px 40px;
@@ -22,7 +22,7 @@ export const Logo = styled.div<{ $inverse?: boolean }>`
   align-items: center;
   justify-content: center;
   gap: 8px;
-  background-color: transparent;
+  background-color: ${colors.white};
   border: 3px solid currentColor;
   border-radius: 0;
   color: ${colors.primary};
